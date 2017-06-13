@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/souhaylessec/Waqiam-Consulting/issues"
   },
-  "homepage": "https://github.com/souhaylessec/Waqiam-Consulting#readme"
+  "homepage": "https://github.com/souhaylessec/Waqiam-Consulting#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
