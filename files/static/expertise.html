@@ -1,7 +1,7 @@
 <html>
     <head>
-        <title> Waqiam homepage nav bar </title>
-        <link rel="stylesheet" type= "text/css" href="stylesheet1.css"> 
+        <title> Expertise </title>
+        <link rel="stylesheet" type= "text/css" href="stylesheet2.css"> 
     </head>
     <body>
  <div id="wrapper"
@@ -15,65 +15,44 @@
             <li><a href="#"> Home</a> </li>
         </ul>
     </div>
-    
+ 
 
-    <div id="intro">
-       <br></br>
-       
-       <p style="color:blue"> Our firm </p>
-       <br></br>
-        <p> Waqiam consulting group is a consulting firm dedicated to North Africa and Asia, founded by former McKinsey consultants passionate about the globaolization and with 30+ years experience in the field </p>
-             <li>Excellent understanding of the opportunities (for instance BOP segment, South South cooperation). Intimate knowledge of doing business environment (for instance state role, weakness of legal framework) Ambitious vision for the continent</li>
-        <br>
-        </br>
-    </div id="intro">
-        <div id="container">
-            <img class="slides" src="pic1.jpg "/>
-            <img class ="slides" src="pic2.jpg"/>
-            <img class= "slides" src="pic3.jpg"/>
-            <button class="btn" onClick="plusIndex(-1)" id = "btn1"> &#10094; </button>
-            <button class="btn" onClick="plusIndex(+1)" id= "btn2"> &#10095; </button>
+        <div class="plans">
+            <div class="plan">
+            <h3 class="plan-title">Consumer Goods & Retail & Digital</h3>
+            <p class="plan-price">Waqiam has developed a strong expertise in consumer goods and distribution</p>
+            <ul class="plan-features">
+                <li class="plan-feature">Companies in the retail sector with long-term return goals</li>
+                <li class="plan-feature">BToB players as well as BToC players </li>
+                <li class="plan-feature">Company valuation and support for negotiations</li>
+            </ul>
+  
+            </div>
+            
+
+            <div class="plan">
+            <h3 class="plan-title">Healthcare & Pharmaceuticals</h3>
+            <p class="plan-price">A pioneering study reveals a startling range of health outcomes in hospitals across Europe</p>
+            <ul class="plan-features">
+                <li class="plan-feature">Value-Based Health Care and pricing strategy </li>
+                <li class="plan-feature">Managing Health Care Costs and Quality with an approach of lean management</li>
+                <li class="plan-feature">Consolidating Provider Landscape</li>
+            </ul>
+ 
+            </div>
+            <div class="plan">
+            <h3 class="plan-title">Technology, Media and Telecommunications</h3>
+            <p class="plan-price"> We help telecommunications provider to maintain annual profits with sustainable growth </p>
+            <ul class="plan-features">
+                <li class="plan-feature">Overcome organizational barriers</li>
+                <li class="plan-feature">Campus Approach mobilizes the entire organization</li>
+                <li class="plan-feature">Tailor services and product offerings to individual client interactions</li>
+            </ul>
+           
+            </div>
         </div>
 
-       
-</div>
-    </body>
-    <script>
-        var index = 1; 
-        function plusIndex(n){
-            index = index +n;
-            showImage(index);
-        }
-        showImage(1);
 
-        function showImage(n){
-            var i;
-            var x = document.getElementsByClassName("slides");
-            if(n > x.length){index = 1;}
-            if(n < 1){index = x.length;}
-            for ( i=0; i< x.length; i++)
-            {
-                x[i].style.display ="none";
-            }
-        x[index-1].style.display="block";
-        }
-        autoSlide();
-        function autoSlide(){
-            var i;
-            var x = document.getElementsByClassName("slides");
-             for ( i=0; i< x.length; i++)
-            {
-                x[i].style.display ="none";
-            }
-            if(index > x.length)
-            {
-                index=1;
-            }
-            x[index-1].style.display = "block";
-            index++;
-            setTimeout(autoSlide,4000)
-        }
-    </script>
 
     </div id="wrapper"
 </html>
