@@ -1,4 +1,3 @@
-
 header {
 	height: 100px;
 	padding-top: 5px;
@@ -9,6 +8,12 @@ header {
 	width: 290px;
 	float: left;
 	padding: 5px 15px;
+}
+
+
+#team{
+margin-left: 120px;
+padding: 0;
 }
 
 #middle {
@@ -26,7 +31,7 @@ header {
 
 
 #body{
-    font-family: "chronicle";
+    font-family: Calibri;
 }
 *{
 padding : 0px;
@@ -34,7 +39,7 @@ margin : 2px;
 }
 
 #wrapper{
-    background: #fff;
+    background: none;
     width: 1200px;
     margin: 0 auto;
     padding: 0;
@@ -45,7 +50,7 @@ margin : 2px;
 #maindiv{
     width:100%;
     height:700px;
-    background: #f2f2f2;
+    background: none;
 }
 #navDiv{
     opacity: 7;
@@ -72,7 +77,7 @@ margin : 2px;
  font-size: 1.2em;
 }
 #navDiv ul li:hover {
-    background: #cecae8;
+    background:none;
     transition:all 0.4s; 
 }
 #navDiv p{
@@ -85,9 +90,8 @@ margin : 2px;
 
 #container{
    
-    background: #fff;
+    background:none;
     width: 1020px;
     margin: 0 auto;
     padding: 0;
 }
-
