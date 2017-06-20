@@ -4,6 +4,8 @@
     <head>
         <title> Contact </title>
         <link rel="stylesheet" type= "text/css" href="stylesheet_contact.css"> 
+   <script type="text/javascript" src="script_contact.js"></script>
+
     </head>
     <body>
  <div id="wrapper"
@@ -12,9 +14,9 @@
         <ul> 
             <p> Waqiam Consulting Group </p> 
             <li><a href="contact.html"> Contact Us</a> </li>
-            <li><a href="Our Team.html"> Our Team</a> </li>
-            <li><a href="Expertise.html"> Expertise</a> </li>
-            <li><a href="Waqiam homepage.html"> Home</a> </li>
+            <li><a href="team.html"> Our Team</a> </li>
+            <li><a href="expertise.html"> Expertise</a> </li>
+            <li><a href="index.html"> Home</a> </li>
         </ul>
     </div>
  
@@ -287,7 +289,13 @@
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+<button onclick="myFunction()">Submit</button>
+<p id="submit"></p>
+<script>
+function myFunction() {
+    document.getElementById("submit").innerHTML = "<span style='color: blue;'>Thank you</span>";
+}
+</script>
 
   </form>
 </div>

@@ -1,5 +1,5 @@
 body{
-    font-family: "chronicle";
+    font-family: "Arial";
 }
 *{
 padding : 0px;
@@ -13,16 +13,6 @@ margin : 2px;
     padding: 0;
     box-shadow: 
 }
-
-#intro{
-    text-align:left;
-    width: 678px;
-    position: relative;
-    width: 1020px;
-    margin: 2px;
-    padding: 0;
-}
-
 
 #maindiv{
     width:100%;
@@ -64,6 +54,8 @@ margin : 2px;
     cursor: pointer;
     margin-left:15px;
 }
+
+
 
 #container{
    
@@ -162,5 +154,4 @@ margin : 2px;
   padding-right: 15px;
   width: 170px;
   border: 4px solid #37bbe6;
-
 
