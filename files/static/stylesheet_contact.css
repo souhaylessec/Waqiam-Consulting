@@ -33,6 +33,11 @@ padding : 0px;
 margin : 2px;
 }
 
+#contactimage {
+	display: block;
+    margin: auto;
+    width: 40%;
+}
 #wrapper{
     background: #fff;
     width: 1200px;
